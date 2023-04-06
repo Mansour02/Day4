@@ -1,0 +1,25 @@
+        Scanner s = new Scanner(System.in);
+
+        int[] number = {10, 20, 30, 40, 55, 29, 31, 75, 21, 82, 93, 15, 27};
+
+
+        System.out.println("Enter a number");
+
+        int check = s.nextInt();
+
+        boolean found = false;
+
+        for (int z : number)
+        {
+            if (z == check) {
+
+                found = true;
+
+                break;
+            }
+        }
+        if (found == true){
+
+            System.out.printf("It is true");
+
+        }else System.out.printf("It is false");
