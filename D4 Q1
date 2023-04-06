@@ -1,0 +1,13 @@
+int[] numbers = {50, 60, 40, 10, 38, 65, 87, 56, 90, 100, 66, 80, 88, 40, 98};
+        for (int n : numbers) {
+
+           if (n >= 90 && n <= 100) {
+               System.out.println("A" + n);
+            } else if (n >= 80 && n <= 89) {
+                System.out.println("B"+ n);
+            } else if (n >= 70 && n <= 79) {
+               System.out.println("C" + n);
+           } else if (n >= 60 && n <= 69) {
+                System.out.println("D" + n);
+            }else
+                System.out.println("fail" + n);
