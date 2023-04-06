@@ -1,0 +1,5 @@
+String[] names = {"Shaza", "Mohamed", "Asmaa", "Anfal", "Yousra", "Amin", "Radwa", "Yasmeen"};
+        for (String n : names) {
+            if (n.startsWith("A")) {
+                System.out.println(n);
+                }
